@@ -13,16 +13,16 @@
     21%, 40% {
         transform: translate(0);
     }
-    50%, 70% {
+    65%, 75% {
         transform: translateX(-500px);
     }
-    75% {
+    76% {
         transform: translate(0, -700px);
     }
-    80%, 90% {
+    85%, 90% {
         transform: translateY(0);
     }
-    95%, 100%{
+    98%, 100%{
         transform: translateY(500px);
     }
 }
@@ -34,16 +34,16 @@
     21%, 40% {
         transform: translate(0);
     }
-    50%, 70% {
-        transform: translateX(500px);
+    65%, 75% {
+        transform: translateX(300px);
     }
-    75% {
-        transform: translate(0, 700px);
+    76% {
+        transform: translate(0, 300px);
     }
-    80%, 90% {
+    85%, 90% {
         transform: translateY(0);
     }
-    95%, 100%{
-        transform: translateY(-500px);
+    98%, 100%{
+        transform: translateY(-200px);
     }
 }
