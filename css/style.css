@@ -1,0 +1,49 @@
+.left {
+    animation: left 10s infinite ease-in-out; 
+}
+
+.right {
+    animation: right 10s infinite ease-in-out; 
+}
+
+@keyframes left {
+    0%, 5% {
+        transform: translateX(500px);
+    }
+    21%, 40% {
+        transform: translate(0);
+    }
+    50%, 70% {
+        transform: translateX(-500px);
+    }
+    75% {
+        transform: translate(0, -700px);
+    }
+    80%, 90% {
+        transform: translateY(0);
+    }
+    95%, 100%{
+        transform: translateY(500px);
+    }
+}
+
+@keyframes right {
+    0%, 5% {
+        transform: translateX(-500px);
+    }
+    21%, 40% {
+        transform: translate(0);
+    }
+    50%, 70% {
+        transform: translateX(500px);
+    }
+    75% {
+        transform: translate(0, 700px);
+    }
+    80%, 90% {
+        transform: translateY(0);
+    }
+    95%, 100%{
+        transform: translateY(-500px);
+    }
+}
